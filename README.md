@@ -1,2 +1,2 @@
-# dotfiles
-My dotifles. Description coming soon!
+# My dotfiles
+Description coming soon!
