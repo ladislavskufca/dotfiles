@@ -1,2 +1,7 @@
-# My dotfiles
-Description coming soon!
+#Ladislav's dotfiles
+
+Welcome to my amusement park for my OS X system.
+
+I am just starting to explore everything around unix systems so my .files are pretty boring these days but I am looking forward to learn as much as possible and build myself some fancy .files.
+
+I got all the knowledge from other devs around here on github so feel free to use my scripts the same way I do.
