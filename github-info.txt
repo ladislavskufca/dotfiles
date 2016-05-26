@@ -3,3 +3,6 @@ File with basics about github posting.
 How to pin imgur image in a comment?
 
 ![example_text_placeholder](http://i.imgur.com/example_img_url.png)
+
+How to pink any link in a comment?
+[link](https://github.com/example_url))
