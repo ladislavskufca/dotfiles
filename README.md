@@ -1,6 +1,6 @@
 #Ladislav's .files
 
-Welcome to my amusement park for my OS X system.
+Welcome to my amusement park for my macOS system.
 
 I am just starting to explore everything around unix systems so my .files are pretty boring these days but I am looking forward to learn as much as possible and build myself some fancy .files.
 
