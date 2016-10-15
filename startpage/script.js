@@ -4,9 +4,8 @@ $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random
 
 var searchbox = document.getElementById('search');
 
-//Uncomment line below to focus on serach on load
-
-// $('#search').focus();
+//Comment line below to focus on serach on load
+$('#search').focus();
 searchbox.onkeypress = function(e) {
 	if (e.keyCode === 13) {
 		search();
