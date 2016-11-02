@@ -1,5 +1,5 @@
 //var images = ['0001.jpg', '0002.jpg'];
-var images = ['0001.jpg'];
+var images = ['1.jpg'];
 $('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 var searchbox = document.getElementById('search');
