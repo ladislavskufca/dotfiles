@@ -1,0 +1,1 @@
+FireAndIce.RazerSynapse from https://www.reddit.com/r/ChromaProfiles/comments/5kz4cq/fire_and_ice/
