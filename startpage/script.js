@@ -1,23 +1,9 @@
-//var images = ['0001.jpg', '0002.jpg'];
-var images = ['11.jpg'];
-$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
-
 var searchbox = document.getElementById('search');
 
-//Uncomment line below to focus on search on load
-//$('#search').focus();
+$('#search').focus();
 searchbox.onkeypress = function(e) {
 	if (e.keyCode === 13) {
-		search();
+		var query = searchbox.value;
+		window.location = 'https://www.google.si/search?q=' + query;
 	}
-}
-
-function search() {
-	var query = searchbox.value;
-	window.location = 'https://www.google.si/search?q=' + query;
-}
-
-function clear() {
-	searchbox.val = null;
-	searchbox.blur();
 }
