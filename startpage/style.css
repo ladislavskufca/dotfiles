@@ -1,5 +1,6 @@
 body {
   font-family: Roboto;
+  font-size: 22px;
   background: darkslateblue;
 }
 
@@ -19,8 +20,11 @@ li {
 }
 
 #searchLabel {
+  font-weight: normal;
   padding: 10px;
+  padding-left: 80px;
 }
+
 .main-box {
   background: cornflowerblue;
 
