@@ -54,6 +54,9 @@ alias flushdns="sudo killall -HUP mDNSResponder"
 # Remaining Battery Time
 alias bt="pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f3 -d';'"
 
+# Show Available Software Updates
+alias softwareupdate='sudo softwareupdate -l'
+
 # Kwm start and stop
 alias kwmstart="brew services start kwm"
 alias kwmstop="brew services stop kwm"
