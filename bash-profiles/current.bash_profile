@@ -51,12 +51,10 @@ alias lip="ipconfig getifaddr en0"
 # Flush DNS
 alias flushdns="sudo killall -HUP mDNSResponder"
 
+# Remaining Battery Time
+alias bt="pmset -g batt | egrep '([0-9]+\%).*' -o --colour=auto | cut -f3 -d';'"
+
 # Kwm start and stop
 alias kwmstart="brew services start kwm"
 alias kwmstop="brew services stop kwm"
 alias kwmrestart="brew services restart kwm"
-
-# Prompt
-#export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
-export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
