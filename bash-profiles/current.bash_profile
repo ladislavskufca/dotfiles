@@ -62,6 +62,8 @@ alias kwmstart="brew services start kwm"
 alias kwmstop="brew services stop kwm"
 alias kwmrestart="brew services restart kwm"
 
+# Clock
+alias clock="tty-clock -c -x -C 5 -s"
 
 
 # found here: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
