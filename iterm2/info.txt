@@ -1,0 +1,1 @@
+Added nord color scheme found here - https://github.com/arcticicestudio/nord-iterm2.
