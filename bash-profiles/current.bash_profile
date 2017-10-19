@@ -65,6 +65,8 @@ alias kwmrestart="brew services restart kwm"
 # Clock
 alias clock="tty-clock -c -x -C 5 -s"
 
+#Check open ports
+alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
 
 # found here: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 # thanks https://github.com/mathiasbynens
