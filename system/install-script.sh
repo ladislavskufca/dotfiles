@@ -39,7 +39,7 @@ defaults write com.apple.TextEdit RichText -int 0
 defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }' && \
 killall Dock
 
-# Created symlink for Sublime 3
+# Create symlink for Sublime 3
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
