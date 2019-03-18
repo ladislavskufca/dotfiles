@@ -74,7 +74,7 @@ alias dlista="docker container list -a"
 alias dstop="docker container stop"
 
 # Other commands
-alias togit="cd Documents/git/"
+alias togit="cd ~/Documents/git/"
 
 # found here: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 # thanks https://github.com/mathiasbynens
