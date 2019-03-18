@@ -65,8 +65,16 @@ alias kwmrestart="brew services restart kwm"
 # Clock
 alias clock="tty-clock -c -x -C 5 -s"
 
-#Check open ports
+# Check open ports
 alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
+
+# Docker commands
+alias dlist="docker container list"
+alias dlista="docker container list -a"
+alias dstop="docker container stop"
+
+# Other commands
+alias togit="cd Documents/git/"
 
 # found here: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 # thanks https://github.com/mathiasbynens
