@@ -72,6 +72,7 @@ alias ports="sudo lsof -PiTCP -sTCP:LISTEN"
 alias dlist="docker container list"
 alias dlista="docker container list -a"
 alias dstop="docker container stop"
+alias dstart="docker container start"
 
 # Other commands
 alias togit="cd ~/Documents/git/"
