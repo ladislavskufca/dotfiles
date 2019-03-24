@@ -76,6 +76,7 @@ alias dstart="docker container start"
 
 # Other commands
 alias togit="cd ~/Documents/git/"
+alias cow="cowsay"
 
 # found here: https://github.com/mathiasbynens/dotfiles/blob/master/.bash_prompt
 # thanks https://github.com/mathiasbynens
